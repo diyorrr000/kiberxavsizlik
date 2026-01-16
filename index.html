@@ -5,14 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiberxavfsizlik Imtihon Testi</title>
-    <!-- Basic Reset & Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <!-- Start Overlay -->
     <div id="start-overlay" class="overlay">
         <div class="start-box">
             <h1>Kiberxavfsizlik bo'yicha yakuniy test</h1>
@@ -24,14 +21,11 @@
             <button id="start-btn" class="btn primary-btn">Testni Boshlash</button>
         </div>
     </div>
-
-    <!-- Main Layout -->
     <div class="exam-layout hidden" id="exam-layout">
-        <!-- LEFT SIDEBAR (Blue) -->
         <aside class="sidebar">
             <div class="user-info">
-                <div class="user-avatar">👤</div>
-                <h3>Foydalanuvchi</h3>
+                <div class="user-avatar"></div>
+                <h3>@SECUREXXX</h3>
                 <p>Kiberxavfsizlik</p>
             </div>
 
@@ -44,8 +38,6 @@
                 <p>Jami savollar: 15</p>
             </div>
         </aside>
-
-        <!-- RIGHT CONTENT (White) -->
         <main class="content-area">
             <!-- Top Nav Numbers -->
             <header class="top-nav">
@@ -62,14 +54,10 @@
                 </div>
 
                 <div class="question-text" id="question-text">
-                    <!-- Text -->
                 </div>
 
                 <div class="options-list" id="options-container">
-                    <!-- Options -->
                 </div>
-
-                <!-- Footer Controls -->
                 <div class="footer-controls">
                     <button id="finish-btn" class="btn finish-btn">Testni Yakunlash</button>
 
@@ -82,8 +70,6 @@
             </div>
         </main>
     </div>
-
-    <!-- Result Modal (Hidden) -->
     <div id="result-modal" class="modal hidden">
         <div class="modal-content">
             <h2>Test Yakunlandi!</h2>
@@ -109,10 +95,9 @@
             </div>
         </div>
     </div>
-
-    <!-- Scripts -->
     <script src="questions_cleaned.js"></script>
     <script src="script.js"></script>
 </body>
+
 
 </html>
